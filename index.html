@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi portafolio</title>
+    <!-- Font-Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap 
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="css/main.min.css">
+</head>
+<body>
+    <!-- Navegador -->
+    <header class="header__container">
+        <a href="#" class="header__container-logo">jSebas</a>
+
+        <label for="menu" class="header__label">
+            <img src="./assets/menu.svg" alt="Menu" class="header__label-img" width="90">
+        </label>
+
+        <input type="checkbox"  id="menu" class="header__nav-input">
+
+        <div class="header__menu">
+            <li class="header__container-nav"><a href="#" class="header__container-nav-a">Inicio</a></li>
+            <li class="header__container-nav"><a href="#descripcion" class="header__container-nav-a">Conocé</a></li>
+            <li class="header__container-nav"><a href="#habilidades" class="header__container-nav-a">Habilidades</a></li>
+            <li class="header__container-nav"><a href="#proyectos" class="header__container-nav-a">Proyectos</a></li>
+            <li class="header__container-nav"><a href="#contacto" class="header__container-nav-a">Conctato</a></li>
+        </div>
+    </header>
+
+    <!-- Introduccion -->
+    <section class="container__section">
+        <img src="./img/estrellas.png" alt="Estrellas" id="estrellas" class="container__section-img">
+        <img src="./img/luna.png" alt="Luna" id="luna" class="container__section-img">
+        <img src="./img/montana.png" alt="Montaña" id="montana" class="container__section-img">
+        <div id="text" class="text">
+            <h2 >Juan Sebastian Lopez Rodas</h2>
+            <h4 >FrontEnd Junior Developer</h4>
+        </div>
+        <a href="#descripcion" id="btn" class="container__section-btn">Explora</a>
+        <img src="./img/montanasFront.png" alt="Montaña" id="montanasFront" class="container__section-img">
+    </section>
+    
+    <!-- Descripcion -->
+    <section id="descripcion" class="container__info">
+
+        <h2 class="container__info-titulo">Juan Sebastian Lopez Rodas</h2>
+
+        <p class="container__info-descr">Recide en la ciudad de Santiago de Cali, nacio el 26/Julio/1998, es el ultimo y unico hijo hombre de 3, ha cursado y culminado desde <span class="container__info-descr-a">Primaria</span> hasta  <span class="container__info-descr-a">Bachillerato</span>, tambien tiene un <span class="container__info-descr-a">Tecnico</span> en Instalaciones Residenciales Electricas y acaba de terminar un <span class="container__info-descr-a">Tecnologo</span> en Analisis y Desarrollo de Sistemas Informativos...</p>
+
+        <h4 class="container__info-subtitulo">Gustos</h4>
+
+        <p class="container__info-descr">Disfruta mucho el pasear, conocer lugares, conocer nuevos retos y experiencias, probar diferentes comidas, jugar en el computador, disfruta mucho ver jugar el equipo de futbol del cual es hincha <a href="https://deportivocali.com.co/" target="_blank" class="container__info-descr-a-c">🇳🇬 Deportivo Cali 🇳🇬</a> y le gusta disfrutar, pasarla bien al lado de personas positivas.</p>
+
+        <p class="container__info-descr">Es una persona muy organizada, honesta, es muy cuidadoso, responsable, atento al detalle, le gusta probar e intentar nuevos cosas en lo personal y laboral, apasionado a su familia, aficionado a los planes de acampar, tardear, peliculas...  esta constantemente aprendiendo y afianzando conceptos referente al Desarrollo Web. Esta muy apasionado por el Desarrollo FrontEnd.</p>
+
+        <p class="container__info-descr">Cuando empezo a ver el flujo de como se generan las paginas web y todo el <span class="container__info-descr-a">Misterio</span> que hay detras de ello fue cuando quizo empezar a estudiar sobre el Desarrollo Web y ahora... le apasiona todo lo que tiene que ver con efectos de interfaz al usuario, experiencia al usuario, las animaciones y creacion de prototipos.</p>
+
+        <h4 class="container__info-subtitulo">Experiencias</h4>
+
+        <p class="container__info-descr">Luego de haber salido del Bachillerato ingreso a laboral en varias empresas de produccion en planta pero no es lo que habia querido ejercer, el primer empleo fue en <a href="https://www.facebook.com/IMPORFENIXGRUPO/" class="container__info-descr-a-m" target="_blank">La Gran Manzana Fenix</a> donde era 'Operario de Reempaque' y tuvo una duracion de 14 meses.</p>
+
+        <p class="container__info-descr">La segunda experiencia laboral ha sido en <a href="https://www.olimpica.com/" class="container__info-descr-a-o" target="_blank">Super Tiendas Olimpica</a> donde tuvo el cargo de 'Auxiliar de fruver' y duro 8 meses. </p>
+
+        <p class="container__info-descr">Tambien tuvo paso por <a href="https://www.plasticel.com/es/" class="container__info-descr-a-o">Plasticel</a> donde ocupada el cargo de 'Ayudante de produccion' y el tiempo laborado fue de 12 meses.</p>
+
+        <p class="container__info-descr">Por ultimo... adquirio 6 meses de experiencia en <a href="https://www.stpnetworks.com.co/" class="container__info-descr-a-s" target="_blank">STP Networks</a> en el rol de 'AprendizQA' del SENA, ahi fue donde se adentro y afianzo conceptos de la programacion que le han servido para poder apoyar en los diferentes proyectos que han surjido a lo largo del camino en la empresa.</p>
+        
+        
+
+        
+
+    </section>
+
+    <!-- Habilidades -->
+    <section id="habilidades" class="container__habilidades">
+                <h2 class="container__habilidades-titulo">Hablidades</h2>
+
+            <div class="container__habilidades-descripcion">
+                <div class="container__habilidades-des">
+                    <p class="container__habilidades-des-descr">Desde que comenzo el viaje como Desarrollador Web ha aprendido mucho sobre como funciona el flujo de la Programacion Web. Aprendiendo desde como se guarda un archivo HTML hasta hacer validaciones, funciones , etc... en JS y PHP.</p>
+                    <p class="container__habilidades-des-descr">Cuando quiere crear un sitio web exitoso, trata de hacerlo con las mejores practicas, el mejor SEO posible y un QA muy riguroso.</p>
+                    <p class="container__habilidades-des-descr">El area principal de enfoque y de experiencia es el desarrollo <span class="container__habilidades-span">front-end</span> (HTML, CSS, JS, PHP). Le gusta estar en constante creacion y practica de proyectos pequeños y medianos añadiendole animaciones y una buena experiencia de usuario.</p>
+                </div>
+
+                <div class="container__habilidades-barras">
+                    <div class="container__habilidades-barras-progres">
+                        <p class="container-titulo-html">HTML 5</p>
+                        <div class="container-barra"><div class="container-barra-progres-html"></div></div>
+                    </div>
+                    <div class="container__habilidades-barras-progres">
+                        <p class="container-titulo-css">CSS 3</p>
+                        <div class="container-barra"><div class="container-barra-progres-css"></div></div>
+                        <div class="container__habilidades-libreria">
+                            <p class="container-titulo-btp">Bootstrap</p>
+                            <div class="container-barra"><div class="container-barra-progres-btp"></div></div>
+                        </div>
+                    </div>
+                    <div class="container__habilidades-barras-progres">
+                        <p class="container-titulo-js">Java Script</p>
+                        <div class="container-barra"><div class="container-barra-progres-js"></div></div>
+                    </div>
+                    <div class="container__habilidades-barras-progres">
+                        <p class="container-titulo-php">PHP</p>
+                        <div class="container-barra"><div class="container-barra-progres-php"></div></div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="containers">
+        
+        <h3 class="containers__proyectos-titulo">Proyectos</h3>
+
+        <div class="containers__proyectos">
+
+            <div class="containers__proyectos-descripcion">
+                <img src="./img/mentor/cubiC.png" class="containers__proyectos-img" alt="cubic">
+                <div class="overlay"></div>
+                <div class="containers__proyectos-service">
+                    <h3 class="containers__proyectos-service-titulo-c">Cubic</h3>
+                    <hr class="containers__proyectos-service-linea">
+                    <h3 class="containers__proyectos-service-descr">Tomado de una pagina para Desarrolladores, en la cual practico lo que es la maquetacion con un poco de CSS y SASS.</h3>
+                    <a href="https://juansebastianlopez.github.io/cubiC/" target="_blank" class="containers__proyectos-service-a-c">Visita la pagina web ></a>
+                </div>
+            </div>
+
+            <div class="containers__proyectos-descripcion">
+                <img src="./img/mentor/balance.png" class="containers__proyectos-img" alt="balance">
+                <div class="overlay-balance"></div>
+                <div class="containers__proyectos-service">
+                    <h3 class="containers__proyectos-service-titulo-b">Balance</h3>
+                    <hr class="containers__proyectos-service-linea">
+                    <h3 class="containers__proyectos-service-descr">Un balance semanal de gastos, el cual se recorre un JSON y se muestra en las barras los datos que contiene.</h3>
+                    <a href="https://juansebastianlopez.github.io/balance/" target="_blank" class="containers__proyectos-service-a-b">Visita la pagina web ></a>
+                </div>
+            </div>
+
+            <div class="containers__proyectos-descripcion">
+                <img src="./img/deportiva/deportiva1.png" class="containers__proyectos-img" alt="deportivo">
+                <div class="overlay-deportivo"></div>
+                <div class="containers__proyectos-service">
+                    <h3 class="containers__proyectos-service-titulo-d">Marcas deportivas</h3>
+                    <hr class="containers__proyectos-service-linea">
+                    <h3 class="containers__proyectos-service-descr">Creada en estilo libre, pensando en poner en practica ciertos conociemientos de JavaScript e implementarlos con un poco de imaginacion.</h3>
+                    <a href="https://juansebastianlopez.github.io/tiendasDeportivas/" target="_blank" class="containers__proyectos-service-a-m">Visita la pagina web ></a>
+                </div>
+            </div>
+
+            <div class="containers__proyectos-descripcion">
+                <img src="./img/vivero/vivero.png" class="containers__proyectos-img" alt="vivero">
+                <div class="overlay-vivero"></div>
+                <div class="containers__proyectos-service">
+                    <h3 class="containers__proyectos-service-titulo-v">Vivero</h3>
+                    <hr class="containers__proyectos-service-linea">
+                    <h3 class="containers__proyectos-service-descr">Tomado el boseto de un curso de maquetacion y rellenado de contenido a criterio propio.</h3>
+                    <a href="https://juansebastianlopez.github.io/vivero/" target="_blank" class="containers__proyectos-service-a-v">Visita la pagina web ></a>
+                </div>
+            </div>
+
+            <div class="containers__proyectos-descripcion">
+                <img src="./img/rabbit/rabbit.png" class="containers__proyectos-img" alt="rabbit">
+                <div class="overlay-rabbit"></div>
+                <div class="containers__proyectos-service">
+                    <h3 class="containers__proyectos-service-titulo-r">Rabbit Catch</h3>
+                    <hr class="containers__proyectos-service-linea">
+                    <h3 class="containers__proyectos-service-descr">Un juego interactivo basado en conejos, animaciones los cuales deben ser pulsado con el cursor.</h3>
+                    <a href="https://juansebastianlopez.github.io/rabbitCatch/" target="_blank" class="containers__proyectos-service-a-r">Visita la pagina web ></a>
+                </div>
+            </div>
+
+            <div class="containers__proyectos-descripcion">
+                <img src="./img/barberpets/barberpets3.png" class="containers__proyectos-img" alt="barber">
+                <div class="overlay-barber"></div>
+                <div class="containers__proyectos-service">
+                    <h3 class="containers__proyectos-service-titulo-p">Barber Pets</h3>
+                    <hr class="containers__proyectos-service-linea">
+                    <h3 class="containers__proyectos-service-descr">Un sitio web creado a una estetica canina la cual quiere dar a mostrar su trabajo, y servicios.</h3>
+                    <a href="https://juansebastianlopez.github.io/barberPets/index.html" target="_blank" class="containers__proyectos-service-a-p">Visita la pagina web ></a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="container__contact">
+        <h2 class="container__contact-titulo">Contactame</h2>
+        
+        <div class="container__contact-main">
+            <div class="container__contact-media">
+                <ul class="container__contact-social">
+                    <li class="container__contact-social">
+                        <a target="_blank" class="container__contact-social-icons-a" href="https://www.facebook.com/sebastianlr26"><i class="fa-brands fa-facebook"></i></a>
+                    </li>
+                    <li class="container__contact-social-icons">
+                        <a target="_blank" class="container__contact-social-icons-a" href="https://walink.co/63e551"><i class="fa-brands fa-whatsapp"></i></a>
+                    </li>
+                    <li class="container__contact-social-icons">
+                        <a target="_blank" class="container__contact-social-icons-a" href="https://twitter.com/sebastian9815"><i class="fa-brands fa-twitter"></i></a>
+                    </li>
+                    <li class="container__contact-social-icons">
+                        <a target="_blank" class="container__contact-social-icons-a" href="https://www.instagram.com/jlr026/"><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li class="container__contact-social-icons">
+                        <a target="_blank" class="container__contact-social-icons-a" href="https://github.com/juanSebastianLopez"><i class="fa-brands fa-github"></i></a>
+                    </li>
+                    <li class="container__contact-social-icons">
+                        <a target="_blank" class="container__contact-social-icons-a" href="mailto:rodaaas98@gmail.com"><i class="fa-solid fa-at"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="container__contact-user">
+                <img class="container__contact-user-img" src="./img/main.jpeg">
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <!-- JavaScript -->
+    <script src="main.js"></script>
+
+    <!-- Bootstrap 5 
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script> -->
+</body>
+</html> 
